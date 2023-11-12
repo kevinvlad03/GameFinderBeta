@@ -22,7 +22,7 @@ $password = "";
 $databasename = "game_generator";
 $database_connection = mysqli_connect($servername , $username, $password, $databasename);
 
-if(!database_connection){
+if(!$database_connection){
 die ("Failed connection to database: $databasename".mysqli_connect_error() );
 }
 
