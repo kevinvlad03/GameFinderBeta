@@ -1,0 +1,28 @@
+.body{
+    background: rgb(52,3,3);
+    background: linear-gradient(0deg, rgba(52,3,3,1) 26%, rgba(253,45,45,1) 100%); 
+}
+
+/* Path: style.css */
+#header{
+    background: rgb(52,3,3);
+    background: linear-gradient(0deg, rgba(52,3,3,1) 26%, rgba(253,45,45,1) 100%); 
+}
+
+/* Path: style.css */
+#footer{
+    background: rgb(52,3,3);
+    background: linear-gradient(0deg, rgba(52,3,3,1) 26%, rgba(253,45,45,1) 100%); 
+}
+
+/* Path: style.css */
+#main{
+    background: rgb(52,3,3);
+    background: linear-gradient(0deg, rgba(52,3,3,1) 26%, rgba(253,45,45,1) 100%); 
+}   
+
+/* Path: style.css */
+.btn1{
+    background-color: rgb(209, 17, 17); padding: 5px 15px; border: 1px solid crimson; cursor: pointer; border-radius: 15px;
+
+}
