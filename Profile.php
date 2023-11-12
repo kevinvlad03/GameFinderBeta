@@ -83,8 +83,8 @@
                 <div class="ml-3">
                   <?php
                   $servername = "localhost";
-                  $username = "dumitruvlad";
-                  $password = "1006";
+                  $username = "root";
+                  $password = "";
                   $databasename = "game_generator";
                   $database_connection = mysqli_connect($servername , $username, $password, $databasename);
                   
