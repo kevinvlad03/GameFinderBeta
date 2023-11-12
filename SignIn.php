@@ -56,6 +56,7 @@ if(isset($_POST["submitbutton"])){
     }
 
     else{
+        if(!session_id())
         session_start();
         $_SESSION['username']=$_POST['user'];
         header("Location:index.php");

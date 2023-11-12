@@ -9,6 +9,7 @@ if(!$database_connection){
 die ("Failed connection to database: $databasename".mysqli_connect_error() );
 }
 
+if(!session_id())
 session_start();
 ?>
 

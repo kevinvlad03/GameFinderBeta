@@ -55,6 +55,7 @@
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                   
                   <?php
+                  if(!session_id())
                   session_start();
                   if(isset($_SESSION['username']))
                   echo '
@@ -136,6 +137,7 @@ background: linear-gradient(90deg, rgba(36,0,10,1) 0%, rgba(220,20,60,1) 50%, rg
    <input name="randomgame" value="Give me a random GAME!" type="submit" style="background-color: white; padding: 5px 15px; border: 1px solid crimson; cursor: pointer; border-radius: 15px;">
     <br>            
 <?php
+if(!session_id())
 session_start();
                 if(isset($_POST['randomgame'])){
                   $query3 = "SELECT name FROM game_generator.games order by RAND() limit 1";

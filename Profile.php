@@ -35,6 +35,7 @@
                   </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                 <?php
+                if(!session_id())
                   session_start();
                   if(isset($_SESSION['username']))
                   echo '
@@ -92,6 +93,7 @@
                   die ("Failed connection to database: $databasename".mysqli_connect_error() );
                   }
 
+                  if(!session_id())
                   session_start();
 
                   $query = "SELECT * FROM game_generator.users WHERE username='".$_SESSION['username']."'";
