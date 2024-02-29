@@ -34,6 +34,5 @@ To get started with Games Finder, follow these steps:
 
 - **Backend:** PHP
 - **Frontend:** HTML, CSS (minimal usage)
-- **Database:** [Specify the database system used]
-- [List any additional technologies or frameworks used]
+- **Database:** SQL
 
